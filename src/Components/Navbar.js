@@ -13,7 +13,7 @@ const Navbar = () => {
     return (
         <Box>
             <AppBar position='fixed'>
-                <Toolbar className={classes.nav}><Typography variant='h5' sx={{ display: { xs: "none", sm: "block" } }}>Facecham</Typography>
+                <Toolbar className={classes.nav}><Typography variant='h5' sx={{ display: { xs: "none", sm: "block" } }}>Facechamp</Typography>
                     <IceSkating sx={{ display: { xs: "block", sm: "none" } }} />
                     <Box className={classes.search} sx={{ display: { xs: "none", sm: "flex" } }}  >
                         <InputBase placeholder='Search....' />
